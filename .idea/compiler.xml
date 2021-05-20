@@ -16,6 +16,7 @@
         <module name="cloud-provider-payment8001" />
         <module name="cloud-consumer-fegin-order80" />
         <module name="cloud-consumer-order80" />
+        <module name="git-test" />
         <module name="cloud-provider-hystrix-payment8001" />
       </profile>
     </annotationProcessing>
