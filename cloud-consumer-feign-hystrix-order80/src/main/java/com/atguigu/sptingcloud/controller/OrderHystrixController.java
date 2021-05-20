@@ -25,14 +25,15 @@ public class OrderHystrixController {
 
     @GetMapping("/consumer/payment/hystrix/ok/{id}")
     public String paymentInfo_OK(@PathVariable("id") Integer id){
-        String result = paymentHystrixService.paymentInfo_OK(id);
-        return result;
+
+        return  paymentHystrixService.paymentInfo_OK(id);
     }
+
 
     @GetMapping("/consumer/payment/hystrix/timeout/{id}")
     public String paymentInfo_Timeout(@PathVariable("id") Integer id){
-        String result  = paymentHystrixService.paymentInfo_timeout(id);
-        return result;
+        return  paymentHystrixService.paymentInfo_timeout(id);
+
 
     }
 
