@@ -1,10 +1,10 @@
-package com.atguigu.sptingcloud.controller;/*
+package com.atguigu.sptingcloud.controller;
+/*
  * @AUTHOR   LiXiang
  * @Classname Coontroller
  *
  * @Date 2021/5/19 下午10:07
  *
-
  * @userName
  */
 
@@ -27,12 +27,12 @@ public class OrderHystrixController {
     public String paymentInfo_OK(@PathVariable("id") Integer id){
 
         return  paymentHystrixService.paymentInfo_OK(id);
+
     }
 
     @GetMapping("/consumer/payment/hystrix/timeout/{id}")
     public String paymentInfo_Timeout(@PathVariable("id") Integer id){
         return  paymentHystrixService.paymentInfo_timeout(id);
     }
-
 
 }
