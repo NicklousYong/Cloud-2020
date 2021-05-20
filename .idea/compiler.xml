@@ -22,6 +22,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-consumer-fegin-hystrix-order80" target="1.8" />
+      <module name="git-test" target="1.8" />
       <module name="Insert-Into-Database" target="1.8" />
     </bytecodeTargetLevel>
   </component>
